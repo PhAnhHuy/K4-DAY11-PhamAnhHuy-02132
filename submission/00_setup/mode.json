@@ -1,0 +1,15 @@
+{
+  "members": [
+    "chi",
+    "huy",
+    "tu"
+  ],
+  "assignments": {
+    "chi": "B4-edge",
+    "huy": "B2-mid",
+    "tu": "B4-center"
+  },
+  "self": "huy",
+  "slice": "B2-mid",
+  "degrade": []
+}
