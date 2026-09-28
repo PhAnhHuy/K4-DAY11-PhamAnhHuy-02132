@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,20,"Thiếu vật nhỏ hoặc sai class trong cảnh giao thông thông thường","Giữ mẫu nền ban ngày và mật độ vừa để đo chất lượng cơ sở của camera trước"
+front,hard,30,"Chói sáng; vật xa; che khuất; nhiều xe cùng lúc","Ưu tiên ca khó vì camera trước thường chứa nhiều đối tượng và thay đổi tỷ lệ mạnh theo chiều sâu"
+rear,normal,20,"Bỏ sót vật đi vào vùng phía sau trong cảnh thưa","Giữ mẫu lùi hoặc chạy chậm với ít che khuất để có đường cơ sở riêng cho camera sau"
+rear,hard,30,"Thân xe che ảnh; vật sát xe; thiếu sáng hoặc chuyển động lúc lùi","Tăng mẫu khó để kiểm vùng gần xe và các đối tượng xuất hiện đột ngột ở rìa ảnh"
+left,normal,20,"Sai class hoặc box lệch do méo fisheye bên hông","Giữ đủ cảnh bên trái thông thường để so với nhóm hard và không chỉ lấy ca ở seam"
+left,hard,30,"Vật sát xe; truncated; che khuất; xuất hiện tại seam trước-trái hoặc sau-trái","Ưu tiên ca seam và méo mạnh vì cùng vật có thể hiện trên hai camera với hình học khác nhau"
+right,normal,20,"Sai class hoặc box lệch do méo fisheye bên hông","Giữ đủ cảnh bên phải thông thường để kiểm độ phủ camera riêng"
+right,hard,30,"Vật sát xe; truncated; che khuất; xuất hiện tại seam trước-phải hoặc sau-phải","Ưu tiên ca seam và đối tượng dễ bị cắt ở mép; giữ cặp frame đồng bộ khi có thể"

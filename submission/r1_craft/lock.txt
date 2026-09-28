@@ -1,0 +1,29 @@
+round: r1_craft
+slice: B2-mid
+sha256: 70ca9446b3bbf1eedabb5a7afd9424f63c13ba035302073c8861e2c75568bc69
+code: 70CA-9446
+locked_at: 2026-09-29T00:03:24+07:00
+shapes: box=24, polygon=11
+prefill_kept: 3
+prefill_edited: 2
+new: 19
+history:
+  round: r1_craft
+  slice: B2-mid
+  sha256: 1a5f4925f3e80afda9a17602cc6597f6bcf75dc9675d9cd3c2c85b079299634c
+  code: 1A5F-4925
+  locked_at: 2026-09-28T23:57:02+07:00
+  shapes: box=24, polygon=11
+  prefill_kept: 3
+  prefill_edited: 2
+  new: 19
+  history:
+    round: r1_craft
+    slice: B2-mid
+    sha256: 193acf6025cc5db6f891aee44c58693e0385162527cbe0ac51180fe2521ee72b
+    code: 193A-CF60
+    locked_at: 2026-09-28T18:59:16+07:00
+    shapes: box=29, polygon=9
+    prefill_kept: 3
+    prefill_edited: 2
+    new: 24

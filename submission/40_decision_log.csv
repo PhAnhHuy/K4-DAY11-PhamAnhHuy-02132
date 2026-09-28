@@ -1,1 +1,7 @@
 id,date,question,decision,rationale,status
+D01,2026-09-29,"Hai ignore_region nhỏ ở adasind_086220 có cần giữ không?","Xóa khỏi bản rework","Nhóm đã soát tại chỗ và xác nhận hai box đó không còn cần thiết; delta đánh dấu không áp dụng vì object_ref tùy chỉnh không được matcher theo dõi",decided
+D02,2026-09-29,"Vật L1 adasind_102750 là ThreeWheeler, Truck hay reference thiếu?","Tạm giữ ThreeWheeler và chuyển QA/Lab Coach phân xử","Learner và model cùng thấy vật nhưng bất đồng class, trong khi teaching reference không có box; bằng chứng hiện tại chưa đủ",escalated
+D03,2026-09-29,"Có sửa trực tiếp XML đã khóa 70CA-9446 không?","Không; sửa trong CVAT rồi khóa ZIP mới CBE9-BB9D","Giữ nguyên baseline để truy vết và dùng rework/delta.md so trước–sau",decided
+D04,2026-09-29,"Các vùng privacy_or_policy dạng box xử lý thế nào?","Đổi các vùng cần giữ thành polygon có reason; vùng không cần thì xóa sau review","R06 yêu cầu ignore_region là polygon và mỗi polygon có đúng một reason",decided
+D05,2026-09-29,"Chiếc ThreeWheeler lớn sát mép phải adasind_086220 có truncated không?","Giữ truncated=false theo xác nhận trực quan của annotator và đề xuất R05a","Reference đặt true nhưng chạm cạnh box chưa đủ chứng minh silhouette bị khung cắt; cần policy rõ hơn",decided
+D06,2026-09-29,"Có dùng teaching reference và local-quality như ngưỡng đạt không?","Không; chỉ dùng để chẩn đoán ba frame","Reference chưa phải gold set và kết quả thay đổi theo IoU threshold",decided
